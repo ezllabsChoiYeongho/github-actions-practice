@@ -22,3 +22,5 @@ jobs:
           cache: "yarn"
       - name: Install dependencies
         run: yarn --frozen-lockfile
+      - name: Fail for test
+        run: exit 1
