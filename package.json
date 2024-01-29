@@ -1,8 +1,14 @@
 {
-  "name": "github-actions-practice",
-  "version": "2.0.3",
+  "name": "@ezllabschoiyeongho/github-actions-practice",
+  "version": "0.0.0",
   "main": "index.js",
-  "repository": "https://github.com/ezllabsChoiYeongho/github-actions-practice.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ezllabsChoiYeongho/github-actions-practice"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "author": "ezllabsChoiYeongho <chldudgh8256@ezllabs.co.kr>",
   "license": "MIT",
   "scripts": {
