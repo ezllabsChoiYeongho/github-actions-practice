@@ -6,7 +6,7 @@
   "author": "ezllabsChoiYeongho <chldudgh8256@ezllabs.co.kr>",
   "license": "MIT",
   "scripts": {
-    "build": "node ./sd.config.js && npx prettier --write ./src/styles/design-tokens"
+    "build": "node ./sd.config.mjs && npx prettier --write ./src/styles/design-tokens"
   },
   "devDependencies": {
     "style-dictionary": "^3.9.2"

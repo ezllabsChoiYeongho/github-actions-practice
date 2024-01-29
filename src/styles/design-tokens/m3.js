@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 29 Jan 2024 08:11:54 GMT
+ * Generated on Mon, 29 Jan 2024 08:14:59 GMT
  */
 
 export const m3White = "#ffffff";
