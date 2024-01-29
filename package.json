@@ -1,0 +1,11 @@
+{
+  "name": "github-actions-practice",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ezllabsChoiYeongho/github-actions-practice.git",
+  "author": "ezllabsChoiYeongho <chldudgh8256@ezllabs.co.kr>",
+  "license": "MIT",
+  "devDependencies": {
+    "style-dictionary": "^3.9.2"
+  }
+}
