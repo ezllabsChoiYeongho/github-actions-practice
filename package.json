@@ -1,6 +1,6 @@
 {
   "name": "github-actions-practice",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "main": "index.js",
   "repository": "https://github.com/ezllabsChoiYeongho/github-actions-practice.git",
   "author": "ezllabsChoiYeongho <chldudgh8256@ezllabs.co.kr>",
