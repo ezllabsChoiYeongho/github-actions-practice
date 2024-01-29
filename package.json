@@ -5,6 +5,9 @@
   "repository": "https://github.com/ezllabsChoiYeongho/github-actions-practice.git",
   "author": "ezllabsChoiYeongho <chldudgh8256@ezllabs.co.kr>",
   "license": "MIT",
+  "scripts": {
+    "build": "node ./sd.config.js && npx prettier --write ./src/styles/design-tokens"
+  },
   "devDependencies": {
     "style-dictionary": "^3.9.2"
   }
