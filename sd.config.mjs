@@ -36,7 +36,7 @@ function main() {
  * Style-Dictionary에 설정 값을 집어 넣어 RN 호환용 토큰을 빌드하는 함수
  */
 function buildDesignTokens() {
-  StyleDictionary.extend({
+  const sd = StyleDictionary.extend({
     source: ["./tokens/source.json"],
     platforms: {
       // original: {
@@ -83,7 +83,10 @@ function buildDesignTokens() {
         ],
       },
     },
-  }).buildAllPlatforms();
+  });
+
+  sd.cleanAllPlatforms();
+  sd.buildAllPlatforms();
 }
 
 /**
