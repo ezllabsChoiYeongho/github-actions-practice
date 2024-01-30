@@ -36,14 +36,14 @@ function main() {
  * Style-Dictionary에 설정 값을 집어 넣어 RN 호환용 토큰을 빌드하는 함수
  */
 function buildDesignTokens() {
-  StyleDictionary.extend({
-    source: ["./tokens/**/*.json"],
+  const sd = StyleDictionary.extend({
+    source: ["./tokens/source.json"],
     platforms: {
-      original: {
-        transformGroup: "react-native",
-        buildPath: "src/styles/design-tokens/",
-        files: [{ destination: "m3.js", format: "javascript/es6" }],
-      },
+      // original: {
+      //   transformGroup: "react-native",
+      //   buildPath: "src/styles/design-tokens/",
+      //   files: [{ destination: "m3.js", format: "javascript/es6" }],
+      // },
       systemColor: {
         transformGroup: "react-native",
         buildPath: "src/styles/design-tokens/color/sys/",
@@ -83,7 +83,10 @@ function buildDesignTokens() {
         ],
       },
     },
-  }).buildAllPlatforms();
+  });
+
+  sd.cleanAllPlatforms();
+  sd.buildAllPlatforms();
 }
 
 /**
