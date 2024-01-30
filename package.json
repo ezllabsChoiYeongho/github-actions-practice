@@ -12,6 +12,7 @@
   "author": "ezllabsChoiYeongho <chldudgh8256@ezllabs.co.kr>",
   "license": "MIT",
   "scripts": {
+    "prebuild": "npx token-transformer tokens/token.json tokens/source.json",
     "build": "node ./sd.config.mjs && npx prettier --write ./src/styles/design-tokens"
   },
   "devDependencies": {

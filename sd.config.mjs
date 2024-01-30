@@ -37,7 +37,7 @@ function main() {
  */
 function buildDesignTokens() {
   StyleDictionary.extend({
-    source: ["./tokens/**/*.json"],
+    source: ["./tokens/source.json"],
     platforms: {
       // original: {
       //   transformGroup: "react-native",
