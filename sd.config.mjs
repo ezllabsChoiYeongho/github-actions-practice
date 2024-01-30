@@ -39,11 +39,11 @@ function buildDesignTokens() {
   StyleDictionary.extend({
     source: ["./tokens/**/*.json"],
     platforms: {
-      original: {
-        transformGroup: "react-native",
-        buildPath: "src/styles/design-tokens/",
-        files: [{ destination: "m3.js", format: "javascript/es6" }],
-      },
+      // original: {
+      //   transformGroup: "react-native",
+      //   buildPath: "src/styles/design-tokens/",
+      //   files: [{ destination: "m3.js", format: "javascript/es6" }],
+      // },
       systemColor: {
         transformGroup: "react-native",
         buildPath: "src/styles/design-tokens/color/sys/",
