@@ -30,6 +30,11 @@ jobs:
       - name: build project
         run: yarn build
 
+      - name: commit and push new changes to design-token branch
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: hello new commit!
+
       - name: make pr to main using REST_API
         run: |
           curl -L \
