@@ -30,11 +30,6 @@ jobs:
       - name: build project
         run: yarn build
 
-      - name: commit and push new changes to design-token branch
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: hello new commit!2
-
       - name: make pr to main using REST_API
         run: |
           curl -L \
@@ -46,3 +41,8 @@ jobs:
           -d '{"title":"Amazing new feature","body":"Please pull these awesome changes in!","head":"design-token","base":"main"}'
         env:
           GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+
+      - name: commit and push new changes to design-token branch
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: hello new commit!2
