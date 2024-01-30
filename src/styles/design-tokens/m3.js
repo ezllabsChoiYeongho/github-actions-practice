@@ -1,10 +1,10 @@
 /**
  * Do not edit directly
- * Generated on Tue, 30 Jan 2024 05:51:52 GMT
+ * Generated on Tue, 30 Jan 2024 08:00:40 GMT
  */
 
 export const m3White = "#fffff3";
-export const m3Black = "#000000";
+export const m3Black = "#333";
 export const m3SysLightPrimary = "#6750a4";
 export const m3SysLightOnPrimary = "#ffffff";
 export const m3SysLightPrimaryContainer = "#eaddff";
