@@ -1,0 +1,20 @@
+name: Push to PR
+
+on:
+  push:
+    branches:
+      - "design-token"
+
+jobs:
+  blurblur:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: Use Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "20.x"
+
+      - name: make pr to main
+        run: npx gh pr create --base main --head design-token --title "This is Created By Github Actions" --body "And this is also created By Github Actions"
