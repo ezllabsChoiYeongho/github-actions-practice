@@ -33,7 +33,7 @@ jobs:
       - name: commit and push new changes to design-token branch
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: hello new commit!
+          commit_message: hello new commit!2
 
       - name: make pr to main using REST_API
         run: |
