@@ -1,4 +1,4 @@
-export const primary = "#601410" as const;
+export const primary = "#410e0b" as const;
 export const onPrimary = "#410e0b" as const;
 export const primaryContainer = "#410e0b" as const;
 export const onPrimaryContainer = "#21005d" as const;
@@ -40,7 +40,7 @@ export const shadow = "#000000" as const;
 export const surfaceTint = "#6750a4" as const;
 export const outlineVariant = "#cac4d0" as const;
 export const scrim = "#000000" as const;
-export const surfaceContainerHighest = "#e6e0e9" as const;
+export const surfaceContainerHighest = "#f9dedc" as const;
 export const surfaceContainerHigh = "#ece6f0" as const;
 export const surfaceContainer = "#f3edf7" as const;
 export const surfaceContainerLow = "#f7f2fa" as const;
