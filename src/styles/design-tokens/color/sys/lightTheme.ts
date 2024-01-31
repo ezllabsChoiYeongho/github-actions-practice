@@ -1,4 +1,4 @@
-export const primary = "#601410" as const;
+export const primary = "#000000" as const;
 export const onPrimary = "#d29dac" as const;
 export const primaryContainer = "#410e0b" as const;
 export const onPrimaryContainer = "#21005d" as const;
