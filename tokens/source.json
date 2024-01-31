@@ -11,7 +11,7 @@
     "sys": {
       "light": {
         "primary": {
-          "value": "#3b383e",
+          "value": "#601410",
           "type": "color"
         },
         "on-primary": {
@@ -27,7 +27,7 @@
           "type": "color"
         },
         "primary-fixed": {
-          "value": "#eaddff",
+          "value": "#e46962",
           "type": "color"
         },
         "on-primary-fixed": {
@@ -2579,7 +2579,7 @@
           "fontFamily": "Roboto",
           "fontWeight": "Medium",
           "lineHeight": 64,
-          "fontSize": 45,
+          "fontSize": 57,
           "letterSpacing": -0.25,
           "paragraphSpacing": 0,
           "paragraphIndent": "0px",

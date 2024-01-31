@@ -3,7 +3,7 @@ export const display = {
     fontFamily: "Roboto",
     fontWeight: "500",
     lineHeight: 64,
-    fontSize: 45,
+    fontSize: 57,
   },
   medium: {
     fontFamily: "Roboto",
