@@ -1,5 +1,5 @@
-export const primary = "#b58392" as const;
-export const onPrimary = "#410e0b" as const;
+export const primary = "#8c1d18" as const;
+export const onPrimary = "#dc362e" as const;
 export const primaryContainer = "#410e0b" as const;
 export const onPrimaryContainer = "#21005d" as const;
 export const primaryFixed = "#ffffff" as const;
