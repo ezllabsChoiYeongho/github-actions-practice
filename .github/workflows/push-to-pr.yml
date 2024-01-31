@@ -29,6 +29,8 @@ jobs:
       #     commit_message: "chore: 빌드 결과물 업데이트"
       - name: commit and push new changes to design-token branch
         run: |
+          git config --global user.email "chldudgh8256@ezllabs.co.kr"
+          git config --global user.name "ezllabsChoiYeongho"
           git add ./
           git commit -am "chore: 토큰 빌드 결과물 업데이트"
           git push
