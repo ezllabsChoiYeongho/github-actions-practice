@@ -23,17 +23,10 @@ jobs:
       - name: build project
         run: yarn build
 
-      # - name: commit and push new changes to design-token branch
-      #   uses: stefanzweifel/git-auto-commit-action@v5
-      #   with:
-      #     commit_message: "chore: 빌드 결과물 업데이트"
       - name: commit and push new changes to design-token branch
-        run: |
-          git config --global user.email "chldudgh8256@ezllabs.co.kr"
-          git config --global user.name "ezllabsChoiYeongho"
-          git add ./
-          git commit -am "chore: 토큰 빌드 결과물 업데이트"
-          git push
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: 빌드 결과물 업데이트\n\nrequest-checks: true"
 
       - name: make pr to main using REST_API
         run: |
