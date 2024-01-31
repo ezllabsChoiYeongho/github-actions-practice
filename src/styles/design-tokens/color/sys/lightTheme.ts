@@ -1,14 +1,14 @@
 export const primary = "#601410" as const;
-export const onPrimary = "#d29dac" as const;
+export const onPrimary = "#410e0b" as const;
 export const primaryContainer = "#410e0b" as const;
 export const onPrimaryContainer = "#21005d" as const;
-export const primaryFixed = "#e46962" as const;
+export const primaryFixed = "#ffffff" as const;
 export const onPrimaryFixed = "#21005d" as const;
 export const primaryFixedDim = "#d0bcff" as const;
 export const onPrimaryFixedVariant = "#4f378b" as const;
 export const secondary = "#dc362e" as const;
 export const onSecondary = "#ffffff" as const;
-export const secondaryContainer = "#e8def8" as const;
+export const secondaryContainer = "#601410" as const;
 export const onSecondaryContainer = "#1d192b" as const;
 export const secondaryFixed = "#e8def8" as const;
 export const onSecondaryFixed = "#1d192b" as const;
