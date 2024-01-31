@@ -26,6 +26,7 @@ jobs:
       - name: commit and push new changes to design-token branch
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
+          commit_options: "--cleanup=verbatim"
           commit_message: "chore: 빌드 결과물 업데이트\n\nrequest-checks: true"
 
       - name: make pr to main using REST_API
