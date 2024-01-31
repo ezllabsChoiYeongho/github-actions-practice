@@ -5,7 +5,7 @@ on:
     branches: ["main"]
 
 jobs:
-  blurblur:
+  check-build-integrity:
     runs-on: ubuntu-latest
 
     steps:
