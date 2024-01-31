@@ -15,7 +15,7 @@
           "type": "color"
         },
         "on-primary": {
-          "value": "#d29dac",
+          "value": "#410e0b",
           "type": "color"
         },
         "primary-container": {
@@ -27,7 +27,7 @@
           "type": "color"
         },
         "primary-fixed": {
-          "value": "#e46962",
+          "value": "#ffffff",
           "type": "color"
         },
         "on-primary-fixed": {
@@ -51,7 +51,7 @@
           "type": "color"
         },
         "secondary-container": {
-          "value": "#e8def8",
+          "value": "#601410",
           "type": "color"
         },
         "on-secondary-container": {
