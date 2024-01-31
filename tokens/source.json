@@ -11,15 +11,15 @@
     "sys": {
       "light": {
         "primary": {
-          "value": "#fffbf9",
+          "value": "#6750a4",
           "type": "color"
         },
         "on-primary": {
-          "value": "#cac4d0",
+          "value": "#d29dac",
           "type": "color"
         },
         "primary-container": {
-          "value": "#9a82db",
+          "value": "#410e0b",
           "type": "color"
         },
         "on-primary-container": {
