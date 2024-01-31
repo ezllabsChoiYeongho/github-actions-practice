@@ -11,7 +11,7 @@
     "sys": {
       "light": {
         "primary": {
-          "value": "#601410",
+          "value": "#410e0b",
           "type": "color"
         },
         "on-primary": {
@@ -179,7 +179,7 @@
           "type": "color"
         },
         "surface-container-highest": {
-          "value": "#e6e0e9",
+          "value": "#f9dedc",
           "type": "color"
         },
         "surface-container-high": {
