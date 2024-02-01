@@ -1,11 +1,10 @@
 name: check-build-integrity
 
 on:
-  workflow_run:
-    workflows: [Push to PR]
+  pull_request:
+    branches: [main]
     types:
-      - completed
-    branches: [design-token]
+      - opened
 
 jobs:
   build-token:
