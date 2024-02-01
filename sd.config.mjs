@@ -30,7 +30,6 @@ function main() {
   registerFormats();
   buildDesignTokens();
   generateIndexFiles();
-  // and this is for comment
 }
 
 /**
