@@ -38,6 +38,7 @@ jobs:
   create-pull-request:
     runs-on: ubuntu-latest
     needs: build-rn-token
+    continue-on-error: true
     steps:
       - uses: actions/checkout@v4
       - name: create pull request
