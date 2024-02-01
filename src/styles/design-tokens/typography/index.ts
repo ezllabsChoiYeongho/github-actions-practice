@@ -1,7 +1,7 @@
 export const display = {
   large: {
     fontFamily: "Roboto",
-    fontWeight: "500",
+    fontWeight: "400",
     lineHeight: 64,
     fontSize: 57,
   },
