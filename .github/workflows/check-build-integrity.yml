@@ -4,9 +4,12 @@ on:
   pull_request:
     branches:
       - main
+    types:
+      - opened
+      - synchronize
 
 jobs:
-  check-build-integrity:
+  build:
     runs-on: ubuntu-latest
 
     steps:
