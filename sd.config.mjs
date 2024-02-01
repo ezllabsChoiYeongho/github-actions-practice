@@ -30,7 +30,6 @@ function main() {
   registerFormats();
   buildDesignTokens();
   generateIndexFiles();
-  // and this is for comment
 }
 
 /**
@@ -40,11 +39,6 @@ function buildDesignTokens() {
   const sd = StyleDictionary.extend({
     source: ["./tokens/source.json"],
     platforms: {
-      // original: {
-      //   transformGroup: "react-native",
-      //   buildPath: "src/styles/design-tokens/",
-      //   files: [{ destination: "m3.js", format: "javascript/es6" }],
-      // },
       systemColor: {
         transformGroup: "react-native",
         buildPath: "src/styles/design-tokens/color/sys/",
