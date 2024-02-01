@@ -30,7 +30,12 @@ jobs:
         with:
           commit_message: "chore: 토큰 빌드 결과물 업데이트"
 
-      - name: make pr to main using Github CLI
+  pull-request:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: create pull request
         continue-on-error: true
         run: gh pr create -B design-token -H design-system-token-push --title "테스트 PR" --body "테스트 PR for Token Studio"
         # run: |
