@@ -3,7 +3,7 @@ name: Push to PR
 on:
   push:
     branches:
-      - "design-token"
+      - "design-token/**"
 
 permissions: write-all
 
