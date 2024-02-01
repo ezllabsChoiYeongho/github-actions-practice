@@ -5,6 +5,7 @@ on:
     workflows: [Push to PR]
     types:
       - completed
+    branches: [design-token]
 
 jobs:
   build:
