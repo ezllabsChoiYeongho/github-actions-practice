@@ -2,7 +2,11 @@ name: check-build-integrity
 
 on:
   pull_request:
-    branches: ["main"]
+    branches:
+      - main
+    types:
+      - opened
+      - synchronize
 
 jobs:
   check-build-integrity:
