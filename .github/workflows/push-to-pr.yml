@@ -38,4 +38,4 @@ jobs:
       - name: create pull request
         run: gh pr create -B main -H design-token --title "테스트 PR" --body "테스트 PR for Token Studio"
         env:
-          GITHUB_TOKEN: ${{secrets.ACCESS_TOKEN}}
+          GH_TOKEN: ${{ secrets.ACCESS_TOKEN }}
