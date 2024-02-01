@@ -11,7 +11,7 @@
     "sys": {
       "light": {
         "primary": {
-          "value": "#b3261e",
+          "value": "#4a4458",
           "type": "color"
         },
         "on-primary": {
