@@ -8,7 +8,7 @@ on:
     branches: [design-token]
 
 jobs:
-  build:
+  build-token:
     runs-on: ubuntu-latest
 
     steps:
