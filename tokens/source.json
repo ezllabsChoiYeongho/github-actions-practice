@@ -11,19 +11,19 @@
     "sys": {
       "light": {
         "primary": {
-          "value": "#79747e",
+          "value": "#6750a4",
           "type": "color"
         },
         "on-primary": {
-          "value": "#410e0b",
+          "value": "#ffffff",
           "type": "color"
         },
         "primary-container": {
-          "value": "#8c1d18",
+          "value": "#eaddff",
           "type": "color"
         },
         "on-primary-container": {
-          "value": "#1d1b20",
+          "value": "#21005d",
           "type": "color"
         },
         "primary-fixed": {
@@ -2579,7 +2579,7 @@
           "fontFamily": "Roboto",
           "fontWeight": "Regular",
           "lineHeight": 64,
-          "fontSize": 14,
+          "fontSize": 57,
           "letterSpacing": -0.25,
           "paragraphSpacing": 0,
           "paragraphIndent": "0px",
@@ -2593,7 +2593,7 @@
           "fontFamily": "Roboto",
           "fontWeight": "Regular",
           "lineHeight": 52,
-          "fontSize": 22,
+          "fontSize": 45,
           "letterSpacing": "0%",
           "paragraphSpacing": 0,
           "paragraphIndent": "0px",
@@ -2983,7 +2983,7 @@
   },
   "tokenSetOrder": {
     "0": {
-      "value": "global",
+      "value": "core",
       "type": "other"
     }
   }
