@@ -11,19 +11,19 @@
     "sys": {
       "light": {
         "primary": {
-          "value": "#605d66",
+          "value": "#601410",
           "type": "color"
         },
         "on-primary": {
-          "value": "#ffffff",
+          "value": "#410e0b",
           "type": "color"
         },
         "primary-container": {
-          "value": "#eaddff",
+          "value": "#8c1d18",
           "type": "color"
         },
         "on-primary-container": {
-          "value": "#21005d",
+          "value": "#1d1b20",
           "type": "color"
         },
         "primary-fixed": {
@@ -2579,7 +2579,7 @@
           "fontFamily": "Roboto",
           "fontWeight": "Regular",
           "lineHeight": 64,
-          "fontSize": 57,
+          "fontSize": 14,
           "letterSpacing": -0.25,
           "paragraphSpacing": 0,
           "paragraphIndent": "0px",
@@ -2593,7 +2593,7 @@
           "fontFamily": "Roboto",
           "fontWeight": "Regular",
           "lineHeight": 52,
-          "fontSize": 45,
+          "fontSize": 22,
           "letterSpacing": "0%",
           "paragraphSpacing": 0,
           "paragraphIndent": "0px",

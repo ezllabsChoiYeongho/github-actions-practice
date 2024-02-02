@@ -3,13 +3,13 @@ export const display = {
     fontFamily: "Roboto",
     fontWeight: "400",
     lineHeight: 64,
-    fontSize: 57,
+    fontSize: 14,
   },
   medium: {
     fontFamily: "Roboto",
     fontWeight: "400",
     lineHeight: 52,
-    fontSize: 45,
+    fontSize: 22,
   },
   small: {
     fontFamily: "Roboto",
