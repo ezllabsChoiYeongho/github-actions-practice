@@ -11,7 +11,7 @@
     "sys": {
       "light": {
         "primary": {
-          "value": "firebrick",
+          "value": "blue",
           "type": "color"
         },
         "on-primary": {
