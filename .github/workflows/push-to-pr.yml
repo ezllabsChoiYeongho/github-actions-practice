@@ -34,7 +34,6 @@ jobs:
         with:
           commit_message: "chore: 토큰 빌드 결과물 업데이트"
 
-      - uses: actions/checkout@v4
       - name: create pull request
         run: |
           curl -L \
