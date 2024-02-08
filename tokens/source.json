@@ -15,15 +15,15 @@
           "type": "color"
         },
         "on-primary": {
-          "value": "#fffff2",
+          "value": "#fffff1",
           "type": "color"
         },
         "primary-container": {
-          "value": "#eaddff",
+          "value": "#eaddf3",
           "type": "color"
         },
         "on-primary-container": {
-          "value": "#21005d",
+          "value": "#210051",
           "type": "color"
         },
         "primary-fixed": {
