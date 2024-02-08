@@ -21,20 +21,19 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: "20.x"
-          cache: "yarn"
+          cache: "npm"
 
       - name: install dependencies
-        run: yarn --frozen-lockfile
+        run: npm ci
 
       - name: build project
-        run: yarn build
+        run: npm run build
 
       - name: commit and push new changes to design-token branch
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: 토큰 빌드 결과물 업데이트"
 
-      - uses: actions/checkout@v4
       - name: create pull request
         run: |
           curl -L \
