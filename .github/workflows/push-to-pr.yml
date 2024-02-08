@@ -17,12 +17,6 @@ jobs:
         with:
           token: ${{secrets.ACCESS_TOKEN}}
 
-      - name: Use Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: "20.x"
-          cache: "yarn"
-
       - name: Get yarn cache directory path
         id: yarn-cache-dir-path
         run: echo "dir=$(yarn cache dir)" >> $GITHUB_OUTPUT
@@ -31,9 +25,14 @@ jobs:
         id: yarn-cache # use this to check for `cache-hit` (`steps.yarn-cache.outputs.cache-hit != 'true'`)
         with:
           path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
-          key: ${{ runner.os }}-yarn-${{ hashFiles('./yarn.lock') }}
+          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
           restore-keys: |
             ${{ runner.os }}-yarn-
+
+      - name: Use Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "20.x"
 
       - name: install dependencies
         if: steps.yarn-cache.outputs.cache-hit != 'true'
